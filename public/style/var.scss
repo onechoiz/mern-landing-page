@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+// colors
+$background-gradient: linear-gradient(232.69deg, #5A72EA 28.37%, #8468B1 95.18%);
+$blue:#5A72EA;
+$white: white;
+$black: #5A5A5A;;
+$btn-border: 1px solid $white;
+$btn-padding: 6px 15px;
+$container-padding: 0px 100px;
+
+
+$btn-border-radius: 16px;
+
+// fonts
+$poppins : 'Poppins', sans-serif;
+$mons: 'Montserrat', sans-serif;
+
+
+
+@mixin btnStyle {
+    color: $white;
+    background-color: transparent;
+    border: $btn-border ;
+    padding: $btn-padding;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: $btn-border-radius;
+    width: 95px;
+    margin-right:20px;
+}

@@ -1,0 +1,44 @@
+@import "../../../public/style/var.scss";
+.container{
+    width: 100%;
+    color: $white;
+    background: $background-gradient;
+
+}
+header{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    
+}
+.logo-container {
+    width: 100px;
+    font-family: $poppins;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+.btns{
+    width: 40%;
+}
+
+.btn{
+    @include btnStyle();
+}

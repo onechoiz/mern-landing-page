@@ -1,0 +1,85 @@
+@import "../../../public/style/var.scss";
+@mixin footerTxt {
+    font-size: 14px;
+    line-height: 2;
+    font-family: $poppins;
+    font-weight: 300;
+    color: $black;
+}
+
+$heading-padding: 10px;
+
+.container {
+    background-color: $white;
+    font-family: $poppins;
+}
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 79%;
+    margin: 0px auto;
+    text-align: start;
+    padding: 30px 0px;
+    font-family: $poppins;
+}
+// .footer-column-md {
+//     width: 30%;
+
+.info{
+  @include footerTxt();
+}
+
+
+.socials {
+    margin-top: 18px;
+}
+
+h3 {
+    color: $blue;
+    text-align: start;
+    font-size: 17px;
+    padding-bottom: $heading-padding;
+    font-family: $poppins;
+    font-weight: 300;
+}
+.header {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.footer-column-md {
+
+    width: 30%;
+
+    h3{
+         color: $blue;
+    text-align: start;
+    font-size: 17px;
+    padding-bottom: $heading-padding;
+    font-family: $poppins;
+    font-weight: 800;
+    }
+}
+.footer-column-sm {
+    width: 15%;
+}
+
+.footer-column-sm div {
+  
+    @include footerTxt();
+
+    // flex: none;
+    // order: 4;
+    // flex-grow: 2;
+    // flex-shrink: 0;
+}
+
+@media all and (max-width: 799px){
+    footer{
+       
+       flex-direction: column;
+    }
+}
