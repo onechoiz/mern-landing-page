@@ -1,5 +1,5 @@
 import classes from "../Header/header.module.scss"
-import {ImMenu} from "react-icons/im"
+import { ImMenu } from "react-icons/im"
 import {CgProfile} from "react-icons/cg"
 
 export default function Header() {
