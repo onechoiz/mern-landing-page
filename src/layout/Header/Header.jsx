@@ -1,4 +1,6 @@
 import classes from "../Header/header.module.scss"
+import {ImMenu} from "react-icons/im"
+import {CgProfile} from "react-icons/cg"
 
 export default function Header() {
 
@@ -10,6 +12,8 @@ export default function Header() {
                     Mern
 
                 </div>
+            
+
                 <nav>
                     <ul>
                             <li> 
@@ -25,11 +29,14 @@ export default function Header() {
                                 Pricing
                             </li>
                     </ul>
-                        <div className="btns">
+                        <div className={classes["btns"]}>
                             <button className={classes["btn"]}>Log in </button>
                             <button className={classes["btn"]}>Sign in</button>
                         </div>
                 </nav>
+                 <ImMenu className={classes["menu"]}/>
+                 <CgProfile className={classes["profile-icon"]} />
+
             </header>
 
         </div>

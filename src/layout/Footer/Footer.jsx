@@ -10,8 +10,8 @@ export default function   Footer() {
             <footer>
                 <div className={classes["footer-column-md"]} >
                     <h3>Mern</h3>
-                    <div className={classes["info"]}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ipsum quasi officia ad cupiditate itaque?t</div>
+                    <p className={classes["info"]}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ipsum quasi officia ad cupiditate itaque?t</p>
                     <div className={classes["socials"]}>
                         <a href="#" target="_blank" rel="noopener noreferrer"><img src="/img/socials1.png" alt="social" /></a>
                         <a href="#" target="_blank" rel="noopener noreferrer"><img src="/img/insta.png" alt="instagram" /></a>

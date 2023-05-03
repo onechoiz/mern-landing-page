@@ -12,6 +12,9 @@ $heading-padding: 10px;
 .container {
     background-color: $white;
     font-family: $poppins;
+    // border-top:  1px solid #5a72ea8a;
+    box-shadow: inset 1px 1px  5px  $blue;
+    margin-top: 30px;
 }
 footer {
     display: flex;
@@ -25,17 +28,12 @@ footer {
     padding: 30px 0px;
     font-family: $poppins;
 }
-// .footer-column-md {
-//     width: 30%;
 
 .info{
   @include footerTxt();
 }
 
 
-.socials {
-    margin-top: 18px;
-}
 
 h3 {
     color: $blue;
@@ -62,6 +60,15 @@ h3 {
     font-family: $poppins;
     font-weight: 800;
     }
+    .socials {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 40px;
+    }
+    }
+
 }
 .footer-column-sm {
     width: 15%;
