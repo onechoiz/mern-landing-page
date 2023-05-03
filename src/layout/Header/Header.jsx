@@ -1,5 +1,5 @@
 import classes from "../Header/header.module.scss"
-import { ImMenu } from "react-icons/im"
+import { HiMenu } from "react-icons/hi"
 import {CgProfile} from "react-icons/cg"
 
 export default function Header() {
@@ -34,7 +34,7 @@ export default function Header() {
                             <button className={classes["btn"]}>Sign in</button>
                         </div>
                 </nav>
-                 <ImMenu className={classes["menu"]}/>
+                 <HiMenu className={classes["menu"]}/>
                  <CgProfile className={classes["profile-icon"]} />
 
             </header>
